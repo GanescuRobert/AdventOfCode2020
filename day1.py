@@ -1,6 +1,6 @@
 
 def day1(numbersInCombination):
-	file = open("day1input1.txt", "r")
+	file = open("day1input.txt", "r")
 	numbers=[]
 	for num in file:
 		num=int(num)
