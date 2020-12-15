@@ -12,7 +12,7 @@ def conditionTwo(val1,val2,ch,password):
 
 def day2():
 	global validatesCond1,validatesCond2
-	with open("day2input1.txt") as file:
+	with open("day2input.txt") as file:
 		for data in file:
 			d =re.match(regex,data)
 			val1,val2,ch,password=int(d.group(1)),int(d.group(2)),d.group(3),d.group(4)
